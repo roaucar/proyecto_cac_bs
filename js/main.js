@@ -42,4 +42,3 @@ function calcularTotal() {
 inputCantidad.addEventListener('change', calcularTotal);
 inputCategoria.addEventListener('change', calcularTotal);
 
-
