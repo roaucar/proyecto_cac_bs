@@ -1,3 +1,5 @@
+
+//comprar
 const formCompra = document.getElementById('formCompra');
 const inputCantidad = document.getElementById('inputCantidad');
 const inputCategoria = document.getElementById('inputCategoria');
@@ -41,4 +43,6 @@ function calcularTotal() {
 
 inputCantidad.addEventListener('change', calcularTotal);
 inputCategoria.addEventListener('change', calcularTotal);
+
+//oradores
 
